@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.add {
+    background-color: green;
+}
+
+.remove {
+    background-color: red;
+}
+
+.userrender {
+    margin-right: 50px;
+}
+
+.useredit {
+    display: flex;
+    flex-flow: column;
+}
