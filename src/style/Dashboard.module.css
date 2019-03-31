@@ -6,11 +6,12 @@
 }
 
 .add {
-    background-color: green;
+    background: rgba(64, 83, 231, 0.342);
 }
 
 .remove {
-    background-color: red;
+    width: 97%;
+    
 }
 
 .userrender {
@@ -20,4 +21,12 @@
 .useredit {
     display: flex;
     flex-flow: column;
+    padding: 5px;
 }
+
+.content {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
